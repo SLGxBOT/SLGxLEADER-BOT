@@ -52,7 +52,7 @@ smd({
     async(SLGxLEADER, msg, text,{ isCreator }) => {
         //-----------------------------------------	
         if (!msg.isGroup) return msg.reply(tlang().group);
-        const groupAdmins = await getAdmin(Suhail.bot, msg)
+        const groupAdmins = await getAdmin(SLGxLEADER.bot, msg)
         const botNumber = await SLGxLEADER.bot.decodeJid(msg.user)
         const isBotAdmins = msg.isGroup ? groupAdmins.includes(botNumber) : false;
         const isAdmins = msg.isGroup ? groupAdmins.includes(msg.sender) : false;

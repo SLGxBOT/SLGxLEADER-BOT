@@ -56,17 +56,17 @@ const Config = require('../config')
 let {  smd, lang , textToLogoGenerator, prefix } = require("../lib");
 //-----------------------------------------------------------------------------------
 smd({ pattern: "slice", category: "logo", desc: "Some text to image feature with various styles.",filename: __filename, }, async(SLGxLEADER, msg, text, {cmdName}) => {
-        if (!text) return msg.reply(`*_Example : ${prefix+cmdName} Suhail_*`);
+        if (!text) return msg.reply(`*_Example : ${prefix+cmdName} SLGxLEADER_*`);
         return await textToLogoGenerator(SLGxLEADER, msg, 'create-light-glow-sliced-text-effect-online-1068' , text )
     })
 //-----------------------------------------------------------------------------------
 smd({ pattern: "glow", category: "logo", desc: "Some text to image feature with various styles.",filename: __filename, }, async(SLGxLEADER, msg, text, {cmdName}) => {
-        if (!text) return msg.reply(`*_Example : ${prefix+cmdName} Suhail_*`);
+        if (!text) return msg.reply(`*_Example : ${prefix+cmdName} SLGxLEADER_*`);
         return await textToLogoGenerator(SLGxLEADER, msg, 'free-advanced-glow-text-effect-873' , text )
     })
 //----------------------------------------------------------------------------------- 
 smd({ pattern: "gitch1", category: "logo", desc: "Some text to image feature with various styles.",filename: __filename, }, async(SLGxLEADER, msg, text, {cmdName}) => {
-       if (!text) return msg.reply(`*_Example : ${prefix+cmdName} Suhail_*`);
+       if (!text) return msg.reply(`*_Example : ${prefix+cmdName} SLGxLEADER_*`);
         return await textToLogoGenerator(SLGxLEADER, msg, 'create-impressive-glitch-text-effects-online-1027' , text )        
     }) 
 //---------------------------------------------------------------------------

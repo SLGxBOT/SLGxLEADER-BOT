@@ -131,7 +131,7 @@ smd({
             let member = participants.map((u) => u.id);
             let me = msg.sender;
             let pick = member[Math.floor(Math.random() * member.length)];
-            Suhail.bot.sendMessage(msg.chat, {
+            SLGxLEADER.bot.sendMessage(msg.chat, {
                 text: `The most ${match} around us is *@${pick.split("@")[0]}*`,
                 mentions: [pick],
             }, {
@@ -214,8 +214,8 @@ smd({
         async(SLGxLEADER, msg, text,{isCreator}) => {
             let checkgroup = await sck.findOne({ id: msg.chat })
             if (!msg.isGroup) return msg.reply(tlang().group);
-            const groupAdmins = await getAdmin(Suhail.bot, msg)
-            //const botNumber = await SLGxLEADER.bot.decodeJid(Suhail.bot.user.id)
+            const groupAdmins = await getAdmin(SLGxLEADER.bot, msg)
+            //const botNumber = await SLGxLEADER.bot.decodeJid(SLGxLEADER.bot.user.id)
             //const isBotAdmins = msg.isGroup ? groupAdmins.includes(botNumber) : false;
             const isAdmins = msg.isGroup ? groupAdmins.includes(msg.sender) : false;
             

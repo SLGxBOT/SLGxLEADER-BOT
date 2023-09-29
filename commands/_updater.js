@@ -63,7 +63,7 @@ smd({
             let commits = await DB.syncgit()
             if (commits.total === 0) return await msg.reply(`*BOT IS UPTO DATE...!!*`) 
             let update = `*SLGxBOT New Updates:*\n\n${await DB.sync()}`
-            await Suhail.bot.sendMessage(msg.chat, { text: update, },{ quoted : msg });
+            await SLGxLEADER.bot.sendMessage(msg.chat, { text: update, },{ quoted : msg });
             if(Config.HEROKU_APP_NAME && Config.HEROKU_API_KEY && text == 'start')
             {
                await msg.reply('Heroku Build started...');

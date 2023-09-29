@@ -180,7 +180,7 @@ smd({
 async(SLGxLEADER, msg , text,{ isCreator }) => {
 
      if (!isCreator) return msg.reply(tlang().owner);
-if (!text) return msg.reply (`give me Variable Name\n*E.x : ${prefix}setvar CAPTION: Powered By Suhail Tech*`);
+if (!text) return msg.reply (`give me Variable Name\n*E.x : ${prefix}setvar CAPTION: ℙ𝕆𝕎𝔼ℝ𝔼𝔻 𝔹𝕐 𝕊𝕃𝔾 𝕩𝕋𝔼𝔸𝕄 𝟚𝟘𝟚𝟛*`);
 const headers = 
         {
                  'Accept': 'application/vnd.heroku+json; version=3',
@@ -240,7 +240,7 @@ smd({
     },
     async(SLGxLEADER, msg , text,{ isCreator }) => {
  if (!isCreator) return msg.reply(tlang().owner);
-if (!text) return msg.reply (`give me Variable Name\n*Example : ${prefix}setvar CAPTION: Powered By Suhail Tech*`);
+if (!text) return msg.reply (`give me Variable Name\n*Example : ${prefix}setvar CAPTION: ℙ𝕆𝕎𝔼ℝ𝔼𝔻 𝔹𝕐 𝕊𝕃𝔾 𝕩𝕋𝔼𝔸𝕄 𝟚𝟘𝟚𝟛 *`);
 const headers = {
   'Accept': 'application/vnd.heroku+json; version=3',
   'Authorization': `Bearer ${authToken}`,

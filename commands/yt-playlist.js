@@ -95,8 +95,8 @@ yts( opts, async function ( err, playlist ) {
                                 thumbnail: log0,
                                 renderLargerThumbnail: true,
                                 mediaType: 2,
-                                mediaUrl: 'https://www.youtube.com/@SuhailTechInfo0',
-                                sourceUrl: 'https://www.youtube.com/@SuhailTechInfo0'
+                                mediaUrl: 'https://www.youtube.com/@SLGLEADER',
+                                sourceUrl: 'https://www.youtube.com/@SLGLEADER'
                             }
                         }
                     }

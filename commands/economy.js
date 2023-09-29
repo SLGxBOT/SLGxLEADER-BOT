@@ -44,7 +44,7 @@ const { groupdb,smd, getBuffer, tlang, prefix } = require('../lib')
 const Config = require('../config')
 const eco = require('discord-mongoose-economy')
 let ty = false ; 
-try {if(isMongodb){ ty =  eco.connect(mongodb) }else{ty = eco.connect("mongodb+srv://suhail:md@cluster0.ybz60ak.mongodb.net/?retryWrites=true&w=majority") ; }console.log("Connected with discord economy!!");} catch(e) { ty = false  }
+try {if(isMongodb){ ty =  eco.connect(mongodb) }else{ty = eco.connect("") ; }console.log("Connected with discord economy!!");} catch(e) { ty = false  }
 const sck = groupdb ;
 if(ty){let activegc = ''; 
 /*
@@ -444,7 +444,7 @@ await msg.reply('*What are you trying to do👀*.')
            const jack = ['*🥳 JackPot 🤑*\n\n_--> 🍇×🍇×🍇×🍇_', '*🎉 JaaackPooot!*\n\n_--> 🥥×🥥×🥥×🥥_', '*🎊 You Just hit a jackpot worth 🪙1000*']
            const user = msg.sender
            const k = 100
-           const balance1  = await eco.balance(user,"Suhail")
+           const balance1  = await eco.balance(user,"SLGxLEADER")
            if (k > balance1.wallet) return msg.reply(`You are going to be spinning on your wallet, you need at least 🪙100`);
            const f1 = fruit1[Math.floor(Math.random() * fruit1.length)];
            const f2 = fruit2[Math.floor(Math.random() * fruit2.length)];
