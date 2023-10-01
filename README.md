@@ -61,7 +61,7 @@
 
 ***Use this Public MongoDb Key, If you dont have.!***
 ```
--
+mongodb+srv://LEADERBOT:LEADERbot@cluster0.6peo9jz.mongodb.net/
 ```
 ---
 
