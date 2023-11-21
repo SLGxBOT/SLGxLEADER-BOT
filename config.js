@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '923184474176';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '94742657120';
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://LEADERBOT:LEADERbot@cluster0.6peo9jz.mongodb.net/" ;
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
 global.audio = '' ; 
@@ -14,7 +14,7 @@ global.email = 'samsamsun789@gmail.com' ;
 global.location = 'Lahore Pakistan' ;
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi'
 global.gurl = 'https://youtube.com/@SLGxLEADER' ; // add your username
-global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '923184474176'; ;
+global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '94742657120'; ;
 global.devs = "94742657120"; //Dont change it From here
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/SLGxBOT/SLGxLEADER-BOT';
 global.scan  = process.env.QR_URL || 'https://replit.com/@LEADERlionbot/LEADER-BOT-1?v=1';
