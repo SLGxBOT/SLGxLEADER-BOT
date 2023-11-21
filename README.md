@@ -50,7 +50,7 @@
  
 ## Deployment Methods
 ---
-1.  ***Get [`SESSION ID`](https://replit.com/@LEADERlionbot/SLG-QR-1?v=1) by scanning QR code. And Scan it `Go-to Whatapp>Three dots>Linked Devices`***
+1.  ***Get [`SESSION ID`](https://replit.com/@LEADERlionbot/LEADER-BOT-QR?v=1) by scanning QR code. And Scan it `Go-to Whatapp>Three dots>Linked Devices`***
 2.  ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/6rnftFl0fAI).***
 3.  ***Click [`FORK`](https://github.com/SLGxBOT/SLGxLEADER-BOT/fork) and `Star ⭐ Repository` if you Like that Bot.***
 4.  ***Deploy on [`HEROKU`](https://suhail-web01.vercel.app/deploy.html)***
