@@ -1,4 +1,4 @@
- <h1 align="center"> <font color="RED"> SLGxLEADER BOT </font> </h1> 
+ <h1 align="center"> <font color="#AA6655"> SLGxLEADER BOT </font> </h1> 
 <p align="center"> Introducing SLGxLEADER BOT, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
 <p align="center">
