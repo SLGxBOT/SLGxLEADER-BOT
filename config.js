@@ -21,8 +21,9 @@ global.scan  = process.env.QR_URL || 'https://replit.com/@LEADERlionbot/LEADER-B
 global.website = 'https://github.com/SLGxBOT/SLGxLEADER-BOT' ; //wa.me/+94742657120
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/FfBybSI.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "ZEROTWO=NusVjQpQ#X8Pl9HY6HJvaV7E-Cw9gga8jEkcsO9yMQzvvQu0Keek",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'sᴜʜᴀɪʟ-ᴍᴅ',
+  sessionName: process.env.SESSION_ID || "LEADER-BOT;;;ThawedLevel
+",      //Put Your Session Id Here
+  botname: process.env.BOT_NAME || 'SLG BOT',
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `It'x POORNA`,
   author:  process.env.PACK_AUTHER || '',
