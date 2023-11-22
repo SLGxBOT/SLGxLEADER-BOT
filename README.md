@@ -54,7 +54,7 @@
 2.  ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/6rnftFl0fAI).***
 3.  ***Click [`FORK`](https://github.com/SLGxBOT/SLGxLEADER-BOT/fork) and `Star ⭐ Repository` if you Like that Bot.***
 4.  ***Deploy on [`HEROKU`](https://suhail-web01.vercel.app/deploy.html)***
-5.  ***Deploy on <b> [`Replit`] </b> (https://replit.com/github/SLGxBOT/SLGxLEADER-BOT)***
+5.  ***Deploy on <b>[`Replit`]</b>(https://replit.com/github/SLGxBOT/SLGxLEADER-BOT)***
 
 ##
 
